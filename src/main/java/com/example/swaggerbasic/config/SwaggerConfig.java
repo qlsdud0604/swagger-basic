@@ -21,7 +21,7 @@ public class SwaggerConfig {
     @Bean
     public Docket apiV1() {
         version = "V1";
-        title = "swagger-basic API" + version;
+        title = "swagger-basic API " + version;
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .useDefaultResponseMessages(false)
@@ -36,7 +36,7 @@ public class SwaggerConfig {
     @Bean
     public Docket apiV2() {
         version = "V2";
-        title = "swagger-basic API" + version;
+        title = "swagger-basic API " + version;
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .useDefaultResponseMessages(false)
